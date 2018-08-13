@@ -19,7 +19,7 @@
         {{--introdution paragraph--}}
     <div class="opener">
         <img src="{{asset('images/head-puzzle.svg')}}" alt="Dissertation break down page">
-        <h1>Past Projects</h1>
+        <h1>How to write a dissertation</h1>
         <p>If you are looking for some inspiration then you are in the right place. Here you will find some previous projects and the types of skills each of them required.</p>
         <p>You will also be able to look at what types of research methods other people have used on previous work which could be some great insight into the routes you may explore.</p>
     </div>
