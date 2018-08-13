@@ -1,0 +1,717 @@
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.container{
+  padding-top:100px;
+}
+
+body{
+  background-color: #B6FCB6;
+}
+
+///Example page talking to java and database to bring through data
+  .exampleBody {
+    margin-top: 10px;
+
+    p{
+      font-size: 24px;
+      margin-bottom: 0px;
+      padding: 0 10% 10px 10%;
+    }
+
+    h2{
+      padding-left:10%;
+    }
+
+    .exampleTitle{
+      text-align: left;
+      padding:30px 0 30px 0;
+      width: 400px;
+      border: 3px solid black;
+      background-color: green;
+    }
+    .exampleText {
+      display: none;
+      width: 100%;
+      min-height: 400px;
+      overflow: visible;
+
+      p{
+        font-size: 18px;
+      }
+
+      .exampleGrid{
+        display:grid;
+        grid-template-columns: 70% 30%;
+
+        .mainText{
+          width:100%;
+          height:600px;
+          display:grid;
+          grid-template-columns: auto;
+
+          .intro{
+            width:95%;
+            height:90%;
+            border: black solid 2px;
+            box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+            background-color: green;
+          }
+
+          .conclu{
+            width:95%;
+            height:90%;
+            border: black solid 2px;
+            box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+            background-color: green;
+          }
+        }
+
+        .methods{
+          width:100%;
+          height:90%;
+          border: black solid 2px;
+          box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+          margin-left:-20px;
+          background-color: green;
+        }
+
+        .keySkills{
+          width:140%;
+          height:200px;
+          border: black solid 2px;
+          box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+          background-color: green;
+        }
+      }
+    }
+  }
+
+////////End of example page
+
+//opening paragraph for each page
+.opener{
+
+  img{
+    display: block;
+    margin: auto;
+    width:10%;
+    margin-bottom:20px;
+  }
+
+  h1{
+    display:block;
+    margin:auto;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 20px;
+    padding: 0 15% 0 15%;
+    text-align: center;
+  }
+}
+
+// Project view speaks to java and database to bring through data
+.projectContent {
+  margin-top:200px;
+
+  .templateBox {
+    display: block;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    width: 80%;
+    min-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+
+    .templateInfo {
+      display: none;
+      width: 100%;
+      //overflow: visible;
+      box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+
+      h3{
+        font-size: 28px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-top:10px;
+      }
+
+      p{
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding: 0 10% 10px 10%;
+      }
+    }
+      h2 {
+        font-size: 32px;
+        float: left;
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        padding: 10px 0 10px 30px;
+      }
+
+      .circle:before {
+        content: ' \25CF';
+        font-size: 100px;
+        color: black;
+        float: right;
+        margin-top: -18px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+
+//Login Form stuff located on home page
+.loginBox{
+  margin-top:100px;
+  border: black solid 2px;
+  width:400px;
+  box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+  background-color: #B6FCB6;
+  display: block;
+  margin:auto;
+  padding-bottom:20px;
+
+  .navheading{
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  form {
+    .formStyle {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-left: 10px;
+      div {
+        width:300px;
+        input{
+          width: 300px;
+        }
+        a{
+          margin-top:5px;
+          float: right;
+          font-size:14px;
+        }
+      }
+    }
+
+    .buttonDiv {
+      display:block;
+      margin:auto;
+      width:160px;
+
+      button {
+        background-color: black;
+        width:160px;
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #FFFFFF;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        transition: all 0.2s;
+
+        &:hover {
+          color: #000000;
+          background-color: #FFFFFF;
+          border: 0.1em solid black;
+        }
+      }
+    }
+  }
+}
+
+//register page
+
+.registerBox {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+
+  .buttonDiv {
+    padding-top: 30px;
+  }
+}
+
+// Main navigation bar at the top of each page
+.homeButton {
+  float: left;
+  height:10px;
+
+
+  a{
+    height:20px;
+  }
+
+  img{
+    width:400px;
+  }
+}
+
+
+.main {
+  width: 100px;
+  padding: 0 10px 0 10px;
+
+  :hover {
+    background-color: #B6FCB6;
+  }
+}
+
+header {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+  width: 100%;
+  height:150px;
+  background-color: green;
+
+  nav {
+    width: 100%;
+    height: 150px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 150px;
+
+      li {
+        display: inline-block;
+        float: right;
+        height: 150px;
+
+        a {
+          font-size: 20px;
+          font-weight: bold;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 0 20px 0 20px;
+          text-decoration: none;
+          height: 150px;
+
+          :hover {
+            background-color: white;
+          }
+
+          img{
+            padding-top:40px;
+          }
+        }
+
+      }
+    }
+  }
+}
+//End of navigation
+
+//Home page banner which includes the login button and large image
+.banner{
+  padding-top:50px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width:100%;
+  background-color: green;
+  overflow: hidden;
+
+    .coverPic{
+      max-height:500px;
+  }
+}
+
+// Home page the three icons
+
+.mainBody{
+  width:80%;
+  display: block;
+  margin:auto;
+
+  h1{
+    width:33%;
+    font-size: 60px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top:150px;
+    margin-bottom:100px;
+  }
+
+.selection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  z-index: -1;
+  width:100%;
+
+  div {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+    svg {
+      position: absolute;
+    }
+
+    img {
+      position: relative;
+      width: 160px;
+      left:60px;
+      top:20px;
+    }
+  }
+    .options {
+      width: 100%;
+      margin-top: 100px;
+      text-align: center;
+      margin-right:10px;
+    }
+
+}
+}
+
+// dashboard page styling
+.dashboard {
+  background-color: #B6FCB6;
+  max-width: 100%;
+  max-height: 2000px;
+
+// Grid created to display the three section in center view
+  div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 5px;
+    z-index: 100;
+
+    article {
+      /* border:black solid 2px; */
+      background-color: green;
+      width: 90%;
+      margin: auto;
+      box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+
+      img {
+        width: 30%;
+        display: block;
+        margin: auto;
+      }
+
+      h5 {
+        margin-top: 10px;
+        text-align: center;
+      }
+
+      p {
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+// Button created so user know that these sections are clickable
+      button {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        background-color: #C0C0C0;
+        padding: 12px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Navigation for informational page
+.navheading{
+  display: block;
+  margin:auto;
+  text-align: center;
+  font-weight: bold;
+
+}
+//Setting up navigation so it sticks to the side of the screen while scrolling around
+.secondnav {
+  list-style-type: none;
+  padding: 10px 0 10px 10px;
+  width: 20%;
+  background-color: green;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto;
+  margin-top:-30px;
+  font-size: 20px;
+
+  #navheading{
+    display: block;
+    margin:auto;
+    text-align: center;
+    font-weight: bold;
+
+  }
+// Changing the colour of link once user hovers over it
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+}
+
+// Content on the dissertation help page
+.dissertationHelp{
+  margin-top:100px;
+}
+
+// Create one layout for all text section to follow
+.infoContent {
+  padding-bottom: 40px;
+
+  img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  h2 {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  p {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+
+// Makes half the text sections white
+.white{
+  background-color: White;
+}
+
+//Footer for each page
+footer{
+  width:100%;
+  background-color: green;
+  margin-top:400px;
+
+
+  .footerGrid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    width:90%;
+    margin:auto;
+
+    div{
+      margin: 0 10px 0 10px;
+
+    }
+  }
+}
+
+
+// Responsive down sizing, half a normal screen monitor
+@media screen and (max-width: 1200px) {
+
+  // Dashboard page Code
+  .dashboard {
+
+    div {
+      width: 90%;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  // end of Dashboard page Code
+
+  .secondnav {
+    font-size: 16px;
+    width:200px;
+  }
+
+  //Resizing of the project ideas page
+  .projectContent {
+    .templateBox {
+      span {
+        display: none;
+      }
+      h2 {
+        font-size: 30px;
+      }
+
+    }
+  }
+
+//HomePage
+  .mainBody{
+
+    .opener{
+      p{padding:0;}
+
+      h1{
+        width:100%;
+      }
+    }
+    svg{
+      display: none;
+    }
+  }
+
+  footer{
+    font-size: 12px;
+  }
+}
+
+
+// Responsive down sizing, mobile version
+@media screen and (max-width: 550px) {
+
+  //header for all pages
+  header{
+    .main{
+      padding:0 0 0 0;
+      width:15%;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .exampleGrid{
+    p{
+      font-size:12px;
+    }
+  }
+
+  //Resizing of the project ideas page
+  .projectContent {
+
+    .templateBox {
+      span {
+        display: none;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Dashboard page Code
+  .dashboard {
+    div {
+      grid-template-columns: auto;
+      height: 600px;
+
+      article {
+        width: 100%;
+        margin-bottom: 10px;
+
+        p {
+          display: none;
+        }
+
+        img {
+          width: 15%;
+        }
+      }
+    }
+  }
+  // End of Dashboard page Code
+
+  .secondnav {
+    opacity: 0.5;
+    font-size: 16px;
+    width:200px;
+  }
+
+  //Home page
+  .mainBody{
+    .opener{
+      p{padding:0;}
+
+      h1{
+        width:100%;
+      }
+    }
+
+    //Taking away the images and svg to save room on mobile screen
+    .selection {
+  grid-template-columns: auto;
+      svg {
+        display: none;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+  //Taking image off the banner
+  .banner{
+    img{
+      display:none;
+    }
+  }
+
+  .homeButton {
+    float: left;
+    margin-bottom:100px;
+
+    img{
+      display:none;
+    }
+    .logoMob{
+    display:block;
+  }
+  }
+
+  .banner{
+    background-color: #B6FCB6;
+  }
+
+//reducing the footer font size for mobile version
+  footer{
+    font-size: 12px;
+  }
+}
+

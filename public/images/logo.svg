@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 871 393" style="enable-background:new 0 0 871 393;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0C0C0C;}
+	.st1{fill:none;stroke:#050505;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FF00FF;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#F4F4F4;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#0C0C0C;stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:none;}
+</style>
+<g id="XMLID_2_">
+	<g>
+		<path class="st0" d="M621.9,211.9l0.8,120.7h-0.9c-219.9,110.6-366.7,2.3-369.7,0l0.8,0l-1.7-123.8l0.3-0.8l190.6,76.2
+			L621.9,211.9z"/>
+	</g>
+	<g>
+		<polyline class="st1" points="251.3,207.8 251.6,207.9 442.2,284.1 		"/>
+		<polyline class="st1" points="622.8,211.5 621.9,211.9 442.2,284.1 		"/>
+		<polyline class="st1" points="621.9,208.7 621.9,211.9 622.8,332.6 		"/>
+		<path class="st1" d="M252.1,332.6C252.1,332.6,252.2,332.6,252.1,332.6c3.1,2.3,149.9,110.6,369.8,0"/>
+		<line class="st1" x1="251.3" y1="208.7" x2="253" y2="332.6"/>
+	</g>
+</g>
+<g id="XMLID_1_">
+	<g>
+		<polygon points="862.4,126.6 862.1,127.7 433.8,286 3.6,124 433.8,6.7 433.9,6.1 		"/>
+	</g>
+	<g>
+		<polyline class="st1" points="432.8,5.8 433.9,6.1 862.4,126.6 863,126.8 		"/>
+		<line class="st1" x1="3.6" y1="124" x2="433.8" y2="6.7"/>
+		<line class="st1" x1="433.8" y1="286" x2="3.6" y2="124"/>
+		<line class="st1" x1="862.1" y1="127.7" x2="433.8" y2="286"/>
+	</g>
+</g>
+<path class="st2" d="M218.7,352.1"/>
+<path class="st2" d="M218.7,206.9"/>
+<line class="st3" x1="581.6" y1="47.4" x2="429" y2="102"/>
+<line class="st4" x1="666.3" y1="193.2" x2="665" y2="248"/>
+<line class="st3" x1="627" y1="217" x2="428.3" y2="289"/>
+<line class="st3" x1="250" y1="219" x2="429.1" y2="288.9"/>
+<path id="SVGID_x5F_1_x5F_" class="st5" d="M252.5,321.5C263,330,424,431,622,320"/>
+<text><textPath  xlink:href="#SVGID_x5F_1_x5F_" startOffset="25.5127%">
+<tspan  style="fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10; font-family:'PoorRichard-Regular'; font-size:51px;">Project Bizarre</tspan></textPath>
+</text>
+</svg>

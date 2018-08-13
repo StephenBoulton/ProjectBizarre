@@ -1,0 +1,457 @@
+.container {
+  padding-top: 100px; }
+
+body {
+  background-color: #B6FCB6; }
+
+.exampleBody {
+  margin-top: 10px; }
+  .exampleBody p {
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding: 0 10% 10px 10%; }
+  .exampleBody h2 {
+    padding-left: 10%; }
+  .exampleBody .exampleTitle {
+    text-align: left;
+    padding: 30px 0 30px 0;
+    width: 400px;
+    border: 3px solid black;
+    background-color: green; }
+  .exampleBody .exampleText {
+    display: none;
+    width: 100%;
+    min-height: 400px;
+    overflow: visible; }
+    .exampleBody .exampleText p {
+      font-size: 18px; }
+    .exampleBody .exampleText .exampleGrid {
+      display: grid;
+      grid-template-columns: 70% 30%; }
+      .exampleBody .exampleText .exampleGrid .mainText {
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: auto; }
+        .exampleBody .exampleText .exampleGrid .mainText .intro {
+          width: 95%;
+          height: 90%;
+          border: black solid 2px;
+          box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+          background-color: green; }
+        .exampleBody .exampleText .exampleGrid .mainText .conclu {
+          width: 95%;
+          height: 90%;
+          border: black solid 2px;
+          box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+          background-color: green; }
+      .exampleBody .exampleText .exampleGrid .methods {
+        width: 100%;
+        height: 90%;
+        border: black solid 2px;
+        box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+        margin-left: -20px;
+        background-color: green; }
+      .exampleBody .exampleText .exampleGrid .keySkills {
+        width: 140%;
+        height: 200px;
+        border: black solid 2px;
+        box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+        background-color: green; }
+
+.opener img {
+  display: block;
+  margin: auto;
+  width: 10%;
+  margin-bottom: 20px; }
+
+.opener h1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 50px; }
+
+.opener p {
+  font-size: 20px;
+  padding: 0 15% 0 15%;
+  text-align: center; }
+
+.projectContent {
+  margin-top: 200px; }
+  .projectContent .templateBox {
+    display: block;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    width: 80%;
+    min-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green; }
+    .projectContent .templateBox .templateInfo {
+      display: none;
+      width: 100%;
+      box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2); }
+      .projectContent .templateBox .templateInfo h3 {
+        font-size: 28px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px; }
+      .projectContent .templateBox .templateInfo p {
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding: 0 10% 10px 10%; }
+    .projectContent .templateBox h2 {
+      font-size: 32px;
+      float: left;
+      display: block;
+      margin: auto;
+      margin-top: 15px;
+      padding: 10px 0 10px 30px; }
+    .projectContent .templateBox .circle:before {
+      content: ' \25CF';
+      font-size: 100px;
+      color: black;
+      float: right;
+      margin-top: -18px;
+      margin-right: 5px; }
+
+.loginBox {
+  margin-top: 100px;
+  border: black solid 2px;
+  width: 400px;
+  box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2);
+  background-color: #B6FCB6;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px; }
+  .loginBox .navheading {
+    font-size: 32px;
+    font-weight: bold; }
+  .loginBox form .formStyle {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px; }
+    .loginBox form .formStyle div {
+      width: 300px; }
+      .loginBox form .formStyle div input {
+        width: 300px; }
+      .loginBox form .formStyle div a {
+        margin-top: 5px;
+        float: right;
+        font-size: 14px; }
+  .loginBox form .buttonDiv {
+    display: block;
+    margin: auto;
+    width: 160px; }
+    .loginBox form .buttonDiv button {
+      background-color: black;
+      width: 160px;
+      display: inline-block;
+      padding: 0.35em 1.2em;
+      border: 0.1em solid #FFFFFF;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 24px;
+      color: #FFFFFF;
+      text-align: center;
+      transition: all 0.2s; }
+      .loginBox form .buttonDiv button:hover {
+        color: #000000;
+        background-color: #FFFFFF;
+        border: 0.1em solid black; }
+
+.registerBox {
+  display: block;
+  margin: auto;
+  margin-top: 100px; }
+  .registerBox .buttonDiv {
+    padding-top: 30px; }
+
+.homeButton {
+  float: left;
+  height: 10px; }
+  .homeButton a {
+    height: 20px; }
+  .homeButton img {
+    width: 400px; }
+
+.main {
+  width: 100px;
+  padding: 0 10px 0 10px; }
+  .main :hover {
+    background-color: #B6FCB6; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 150px;
+  background-color: green; }
+  header nav {
+    width: 100%;
+    height: 150px; }
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 150px; }
+      header nav ul li {
+        display: inline-block;
+        float: right;
+        height: 150px; }
+        header nav ul li a {
+          font-size: 20px;
+          font-weight: bold;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 0 20px 0 20px;
+          text-decoration: none;
+          height: 150px; }
+          header nav ul li a :hover {
+            background-color: white; }
+          header nav ul li a img {
+            padding-top: 40px; }
+
+.banner {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  background-color: green;
+  overflow: hidden; }
+  .banner .coverPic {
+    max-height: 500px; }
+
+.mainBody {
+  width: 80%;
+  display: block;
+  margin: auto; }
+  .mainBody h1 {
+    width: 33%;
+    font-size: 60px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px; }
+  .mainBody .selection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    z-index: -1;
+    width: 100%; }
+    .mainBody .selection div {
+      width: 100%;
+      display: block;
+      margin: auto; }
+      .mainBody .selection div svg {
+        position: absolute; }
+      .mainBody .selection div img {
+        position: relative;
+        width: 160px;
+        left: 60px;
+        top: 20px; }
+    .mainBody .selection .options {
+      width: 100%;
+      margin-top: 100px;
+      text-align: center;
+      margin-right: 10px; }
+
+.dashboard {
+  background-color: #B6FCB6;
+  max-width: 100%;
+  max-height: 2000px; }
+  .dashboard div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 5px;
+    z-index: 100; }
+    .dashboard div article {
+      /* border:black solid 2px; */
+      background-color: green;
+      width: 90%;
+      margin: auto;
+      box-shadow: 12px 12px 8px 5px rgba(0, 0, 0, 0.2); }
+      .dashboard div article img {
+        width: 30%;
+        display: block;
+        margin: auto; }
+      .dashboard div article h5 {
+        margin-top: 10px;
+        text-align: center; }
+      .dashboard div article p {
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px; }
+      .dashboard div article button {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        background-color: #C0C0C0;
+        padding: 12px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold; }
+
+.navheading {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: bold; }
+
+.secondnav {
+  list-style-type: none;
+  padding: 10px 0 10px 10px;
+  width: 20%;
+  background-color: green;
+  position: fixed;
+  /* Make it stick, even on scroll */
+  overflow: auto;
+  margin-top: -30px;
+  font-size: 20px; }
+  .secondnav #navheading {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bold; }
+  .secondnav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none; }
+  .secondnav li a.active {
+    background-color: #4CAF50;
+    color: white; }
+  .secondnav li a:hover:not(.active) {
+    background-color: #555;
+    color: white; }
+
+.dissertationHelp {
+  margin-top: 100px; }
+
+.infoContent {
+  padding-bottom: 40px; }
+  .infoContent img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 30px; }
+  .infoContent h2 {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px; }
+  .infoContent p {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px; }
+
+.white {
+  background-color: White; }
+
+footer {
+  width: 100%;
+  background-color: green;
+  margin-top: 400px; }
+  footer .footerGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    margin: auto; }
+    footer .footerGrid div {
+      margin: 0 10px 0 10px; }
+
+@media screen and (max-width: 1200px) {
+  .dashboard div {
+    width: 90%; }
+  .dashboard p {
+    font-size: 18px; }
+  .secondnav {
+    font-size: 16px;
+    width: 200px; }
+  .projectContent .templateBox span {
+    display: none; }
+  .projectContent .templateBox h2 {
+    font-size: 30px; }
+  .mainBody .opener p {
+    padding: 0; }
+  .mainBody .opener h1 {
+    width: 100%; }
+  .mainBody svg {
+    display: none; }
+  footer {
+    font-size: 12px; } }
+
+@media screen and (max-width: 550px) {
+  header .main {
+    padding: 0 0 0 0;
+    width: 15%; }
+    header .main img {
+      width: 40px; }
+  .exampleGrid p {
+    font-size: 12px; }
+  .projectContent .templateBox span {
+    display: none; }
+  .projectContent .templateBox h2 {
+    font-size: 20px; }
+  .dashboard div {
+    grid-template-columns: auto;
+    height: 600px; }
+    .dashboard div article {
+      width: 100%;
+      margin-bottom: 10px; }
+      .dashboard div article p {
+        display: none; }
+      .dashboard div article img {
+        width: 15%; }
+  .secondnav {
+    opacity: 0.5;
+    font-size: 16px;
+    width: 200px; }
+  .mainBody .opener p {
+    padding: 0; }
+  .mainBody .opener h1 {
+    width: 100%; }
+  .mainBody .selection {
+    grid-template-columns: auto; }
+    .mainBody .selection svg {
+      display: none; }
+    .mainBody .selection img {
+      display: none; }
+  .banner img {
+    display: none; }
+  .homeButton {
+    float: left;
+    margin-bottom: 100px; }
+    .homeButton img {
+      display: none; }
+    .homeButton .logoMob {
+      display: block; }
+  .banner {
+    background-color: #B6FCB6; }
+  footer {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=app.css.map */
