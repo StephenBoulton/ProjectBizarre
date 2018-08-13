@@ -11,11 +11,11 @@ To set up application, follow these steps:
 ----------------------------------------------------------------------------------
 Setting up Database
 
-1.Open MySQL Workbench
-2.Create a new schema
-3.name it 'projectBizarre'
-4.Give it a default collation of 'utf8 - default collation'
-5.Click Apply twice
+1. Open MySQL Workbench
+2. Create a new schema
+3. Name it 'projectBizarre'
+4. Give it a default collation of 'utf8 - default collation'
+5. Click Apply twice
 
 ----------------------------------------------------------------------------------
 To send data to datasbe
